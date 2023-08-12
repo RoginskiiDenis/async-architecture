@@ -1,4 +1,4 @@
-name: auth
+name: tracker
 channels:
   - conda-forge
   - defaults
@@ -9,6 +9,5 @@ dependencies:
   - flask==2.3.2
   - psycopg2==2.9.6
   - pyjwt==2.8.0
-  - python-dotenv==1.0.0
   - sqlalchemy==2.0.19
   - kafka-python==2.0.2
