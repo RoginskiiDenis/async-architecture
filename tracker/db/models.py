@@ -3,6 +3,7 @@ from sqlalchemy.orm import declarative_base
 
 Base = declarative_base()
 
+
 class User(Base):
     __tablename__ = 'users'
     id = Column(Integer, primary_key=True)
@@ -12,6 +13,7 @@ class User(Base):
     active = Column(Boolean)
     public_id = Column(String(200), unique=True)
     position = Column(String(200))
+
 
 class Task(Base):
     __tablename__ = 'tasks'
