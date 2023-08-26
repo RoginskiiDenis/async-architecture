@@ -1,0 +1,14 @@
+name: billing
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - alembic=1.11.2
+  - flask==2.3.2
+  - psycopg2==2.9.6
+  - pyjwt==2.8.0
+  - sqlalchemy==2.0.19
+  - kafka-python==2.0.2
+  - jsonschema==4.19.0
